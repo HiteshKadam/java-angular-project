@@ -211,3 +211,16 @@ Swagger UI (if enabled):
 - **React 18**
 - **Axios**
 
+## 🌟 Features
+
+- Secure user registration and login with JWT authentication.
+- AES-256 encryption for sensitive data.
+- Role-based access control (RBAC).
+- RESTful APIs with Swagger documentation.
+- Responsive React frontend with dark theme.
+- MySQL database integration.
+
+## ✨ Made By
+
+- **Hitesh Kadam**  
+  [GitHub Profile](https://github.com/HiteshKadam)
