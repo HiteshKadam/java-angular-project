@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Login Form */
+.login-form {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form Group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-group input {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* Login Button */
+.login-btn {
+  padding: 14px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* Error Message */
+.error-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffe6e6;
+  color: #d93025;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Success Message (if you want to use it) */
+.success-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e6ffea;
+  color: #28a745;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Register Now Button */
+.register-now-btn {
+  background-color: #ffc107;
+  color: #333;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.register-now-btn:hover {
+  background-color: #e0a800;
+  transform: scale(1.03);
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .login-form {
+    padding: 30px 20px;
+  }
+
+  .login-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .register-now-btn,
+  .login-btn {
+    width: 100%;
+  }
+}
